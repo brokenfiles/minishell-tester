@@ -12,7 +12,7 @@
 * <b>Notes importantes</b> :
   - Votre minishell <b>DOIT</b> utiliser `isatty (man isatty)` pour ne pas print votre "header",
   - Vous <b>DEVEZ</b> git clone dans votre dossier minishell,
-  - Vous pouvez lancer les tests avec la commande `$ sh test.sh`,
+  - Vous pouvez lancer les tests avec la commande `sh test.sh`,
   - Vous pouvez modifier les commandes testées en modifiant le fichier `commands_test.txt` qui peut être imcomplet,
   - Il peut y avoir des erreurs dans mon testeur, <u><b>vérifiez vous même avant de noter et ne vous FIEZ PAS UNIQUEMENT AU TESTEUR.</b></u>
 
