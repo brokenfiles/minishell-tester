@@ -11,8 +11,8 @@
 
 * <b>Exemples</b> : 
 <div style="width: 80%;">
-  <p stlye="color: green;">Si votre minishell passe tous les tests :</p>
+  <p stlye="color: #A2FF88;">Si votre minishell passe tous les tests :</p>
   <img style="width: 100%;" src="pictures/working.png">
-  Si il ne les passe pas :
+  <p style="color: #FF9080;">Si il ne les passe pas :</p>
   <img style="width: 100%;" src="pictures/not_working.png">
 </div>
