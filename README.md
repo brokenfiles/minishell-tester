@@ -9,4 +9,5 @@
 * <b>Installation</b> : allez dans votre dossier minishell, et effectuez cette commande : 
 <br> `git clone https://github.com/brokenfiles/minishell-tester/ && cd minishell-tester && sh test.sh`
 
-* <b>Exemples</b> : <img src="working.png">
+* <b>Exemples</b> : <img src="pictures/working.png">
+<img src="pictures/not_working.png">
