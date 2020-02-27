@@ -7,12 +7,12 @@
 <hr>
 
 * <b>Installation</b> : allez dans votre dossier minishell, et effectuez cette commande : 
-<br> `git clone https://github.com/brokenfiles/minishell-tester/ && cd minishell-tester && sh test.sh`
+<br> `git clone https://github.com/brokenfiles/minishell-tester/ && cd minishell-tester && make`
 
 * <b>Notes importantes</b> :
   - Votre minishell <b>DOIT</b> utiliser `isatty (man isatty)` pour ne pas print votre "header",
   - Vous <b>DEVEZ</b> git clone dans votre dossier minishell,
-  - Vous pouvez lancer les tests avec la commande `sh test.sh`,
+  - Vous pouvez lancer les tests avec la commande `make` ou la commande `make run-clean` pour vider les fichiers inutiles,
   - Vous pouvez modifier les commandes testées en modifiant le fichier `commands_test.txt` qui peut être imcomplet,
   - Il peut y avoir des erreurs dans mon testeur, <u><b>vérifiez par vous-même avant de noter et ne vous FIEZ PAS UNIQUEMENT AU TESTEUR.</b></u>
 
