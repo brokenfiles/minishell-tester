@@ -2,7 +2,7 @@ make -C ../ > /dev/null
 ./../minishell < commands_tests.txt > user_output 2> user_error
 bash < commands_tests.txt > real_output 2> real_error
 if [ $? != 0 ]; then
-		echo "It crashed!"
+		echo "\033[0;31mBash crashed !\033[0;0m"
 		exit 1
 fi
 DIFF=$(diff user_output real_output)
